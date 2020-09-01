@@ -5,10 +5,12 @@
 
 int main(void) {
   char * temp;
-  temp = readline("Enter temp in Celsius: ");
+  temp = readline("Enter temperature in celsius: ");
+
   double tempC = atof(temp);
-  printf("%f!/n",tempC);
-  //= atof(strT);
+  double tempF = ( tempC * 9/5) + 32;
+
+  printf("%f° in Celsius is equivalent to %f°  Fahrenheit./n",tempC, tempF);
 
   return 0;
 }
