@@ -15,7 +15,7 @@ int main(void) {
   double tempC = atof(temp);
   double tempF = ( tempC * 9/5) + 32;
 
-  printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n",tempC, tempF);
+  printf("%f° in Celsius is equivalent to %f° Fahrenheit.",tempC, tempF);
 
   return 0;
 }
